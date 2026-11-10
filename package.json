@@ -1,6 +1,6 @@
 {
   "name": "nextjs-api-watcher",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A floating, dev-only network inspector for Next.js. See every browser and server-side API call on the current page and across the session, with Chrome DevTools-style details and HAR export.",
   "contributors": [
     "35c0b4r <msn.ahad98@gmail.com>"
