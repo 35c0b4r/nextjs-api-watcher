@@ -2,6 +2,8 @@
 
 A floating, **dev-only** API inspector for Next.js, in the style of the Next.js dev indicator. Click the badge to see every `fetch()` and `XMLHttpRequest` your app makes, with the same details as Chrome DevTools' Network tab. It can also show the `fetch()` calls your **server** makes.
 
+![nextjs-api-watcher panel showing browser and server requests with request details](https://raw.githubusercontent.com/35c0b4r/nextjs-api-watcher/main/.github/assets/preview.png)
+
 - **Current page**: requests made on the page you're on, including server-side fetches made while rendering it or while handling API routes it called. The list resets on client-side navigation.
 - **All time**: every API call this browser tab has seen, kept across full page reloads. Calls are grouped by endpoint with call counts, error counts, average time and the pages they were called from. You can drill down into an endpoint or view the flat list.
 - **Server-side fetches** (optional setup): `fetch()` calls from Server Components, Route Handlers and Server Actions appear next to the browser's, tagged `server`.
@@ -9,6 +11,8 @@ A floating, **dev-only** API inspector for Next.js, in the style of the Next.js 
 - **Request details**: General info, response and request headers, payload (query string, JSON, form data), JSON preview tree, raw response, timing breakdown (DNS / connect / SSL / TTFB / download), sizes, and the initiator call stack.
 - **Actions**: Copy as cURL, Copy as fetch, copy URL and copy response, plus filtering by URL, method, status, failed requests, or browser vs. server.
 - **Zero cost in production**: renders nothing, and the watcher code is removed from production bundles.
+
+![Demo: recording browser and server requests, inspecting a request, and viewing all-time stats by endpoint](https://raw.githubusercontent.com/35c0b4r/nextjs-api-watcher/main/.github/assets/demo.gif)
 
 ## Install
 
