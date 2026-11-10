@@ -5,6 +5,15 @@
   "contributors": [
     "35c0b4r <msn.ahad98@gmail.com>"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/35c0b4r/nextjs-api-watcher.git"
+  },
+  "homepage": "https://github.com/35c0b4r/nextjs-api-watcher#readme",
+  "bugs": {
+    "url": "https://github.com/35c0b4r/nextjs-api-watcher/issues"
+  },
+  "author": "35c0b4r <msn.ahad98@gmail.com>",
   "license": "MIT",
   "type": "module",
   "sideEffects": false,
